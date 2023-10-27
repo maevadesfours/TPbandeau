@@ -15,11 +15,6 @@ public abstract class Effet {
         this.repetitions = repetitions;
     }
 
-   /* public Effet( Bandeau bandeau, String message,Color couleur) {
-        this.monbandeau = monbandeau;
-        this.affichage = affichage;
-        this.couleur = couleur;
-    }*/
 
     public abstract void afficher();
 
