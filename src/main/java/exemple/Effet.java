@@ -7,8 +7,7 @@ import java.awt.Font;
 public abstract class Effet {
     public Bandeau monbandeau;
     protected int repetitions;
-   // protected String affichage;
-    protected Color couleur;
+
 
     public Effet(Bandeau monbandeau, int repetitions) {
         this.monbandeau = monbandeau;
