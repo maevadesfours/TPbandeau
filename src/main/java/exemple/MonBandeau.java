@@ -9,14 +9,13 @@ public class MonBandeau {
     public static void main(String[] args) {
         Bandeau monBandeau = new Bandeau();
         Scenario scenario = new Scenario(monBandeau);
-        Color couleur =  Color.BLUE;
         Font font = monBandeau.getFont();
         Color back = monBandeau.getBackground();
         Color fore = monBandeau.getForeground();
 
 
-        scenario.addEffet(new Clignote(monBandeau,2 ));
-        scenario.addEffet(new ChangementsCouleurPolice(monBandeau, 5));
+        scenario.addEffet(new Clignote(monBandeau,4 ));
+        scenario.addEffet(new ChangementsCouleurPolice(monBandeau, 2));
 
         scenario.afficherScenario();
     }
