@@ -14,8 +14,7 @@ public class MonBandeau {
         Color back = monBandeau.getBackground();
         Color fore = monBandeau.getForeground();
 
-        //scenario.addEffet(new Zoom(3, monBandeau, "On zoome"));
-        // monscenario.addEffet(new Rotate(2, monBandeau, "On tourne"));
+
         scenario.addEffet(new Clignote(monBandeau,2 ));
         scenario.addEffet(new ChangementsCouleurPolice(monBandeau, 5));
 
