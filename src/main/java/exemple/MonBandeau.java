@@ -16,6 +16,7 @@ public class MonBandeau {
 
         scenario.addEffet(new Clignote(monBandeau,4 ));
         scenario.addEffet(new ChangementsCouleurPolice(monBandeau, 2));
+        scenario.addEffet(new Tourner(monBandeau, 2));
 
         scenario.afficherScenario();
     }
